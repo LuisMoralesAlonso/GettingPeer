@@ -42,7 +42,7 @@ for (i in 1:length(features)) {
 names(meanData) <- c("subject",as.vector(features))
 
 # Write a file with the avg data
-write.table(meanData,file="./avg-data.txt")
+write.table(meanData,file="./output/avg-data.txt")
 
 
 
